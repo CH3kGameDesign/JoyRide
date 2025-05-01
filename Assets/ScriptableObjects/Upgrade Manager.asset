@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9d794831fa909429b5c168bd5e1b96, type: 3}
+  m_Name: Upgrade Manager
+  m_EditorClassIdentifier: 
+  list:
+  - name: Snow Plow
+    id: _snowPlow
+    description: When in doubt strap some metal to the front of your thingamajig.
+    level: 0
+    value:
+      curNumber: 0
+      Base: 0
+      Linear: 0
+      Coefficient2: 0
+      Coefficient3: 0
+      MilestoneRate: 0
+      MilestoneMultiplier: 0
+  - name: Mounted Trevor
+    id: _machineGun
+    description: Trevor found a machine gun!
+    level: 0
+    value:
+      curNumber: 0
+      Base: 0
+      Linear: 0
+      Coefficient2: 0
+      Coefficient3: 0
+      MilestoneRate: 0
+      MilestoneMultiplier: 0
+  - name: RPGunther
+    id: _machineGun
+    description: Gunther's gotten into the high explosives again
+    level: 0
+    value:
+      curNumber: 0
+      Base: 0
+      Linear: 0
+      Coefficient2: 0
+      Coefficient3: 0
+      MilestoneRate: 0
+      MilestoneMultiplier: 0

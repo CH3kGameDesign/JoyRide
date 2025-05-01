@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78ed3b2aec2c89f4f96f6a9859d6a775, type: 3}
+  m_Name: Gun Manager
+  m_EditorClassIdentifier: 
+  list:
+  - name: Pistol
+    id: GUN_Pistol
+    level: 1
+    timer: 0
+    statList:
+    - dps: 10
+      damage: 10
+    - dps: 20
+      damage: 10
+    - dps: 3
+      damage: 30
+    - dps: 4
+      damage: 40
+    - dps: 5
+      damage: 50
+    bullet:
+      id: BLT_bullet
+      gameObject: {fileID: 1205626094780322146, guid: 9b15a59b00332b948a8495dabc2e17f7, type: 3}
+  - name: Enemy_Pistol
+    id: GUN_E_Pistol
+    level: 1
+    timer: 0
+    statList:
+    - dps: 10
+      damage: 1
+    - dps: 10
+      damage: 2
+    - dps: 10
+      damage: 3
+    - dps: 10
+      damage: 4
+    - dps: 10
+      damage: 5
+    bullet:
+      id: BLT_bullet
+      gameObject: {fileID: 1205626094780322146, guid: 9b15a59b00332b948a8495dabc2e17f7, type: 3}
+  - name: Enemy_Sniper
+    id: GUN_E_Sniper
+    level: 1
+    timer: 0
+    statList:
+    - dps: 2
+      damage: 1
+    - dps: 2
+      damage: 2
+    - dps: 2
+      damage: 3
+    - dps: 2
+      damage: 4
+    - dps: 2
+      damage: 5
+    bullet:
+      id: BLT_bullet
+      gameObject: {fileID: 1205626094780322146, guid: 9b15a59b00332b948a8495dabc2e17f7, type: 3}
